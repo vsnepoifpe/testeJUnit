@@ -29,8 +29,7 @@ public class AlunoService
         if (aluno == null || aluno.getNome() == null || aluno.getNome().isBlank() || aluno.getId() == null
                 || aluno.getId().isBlank())
         {
-
-            throw new IllegalArgumentException("Professor Inválido");
+            throw new IllegalArgumentException("Professor Inválido"); // Was this on purpose?
         }
         alunoRepository.salvar(aluno);
     }

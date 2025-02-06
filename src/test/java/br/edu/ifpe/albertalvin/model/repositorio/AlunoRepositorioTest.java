@@ -1,4 +1,4 @@
-package br.edu.ifpe.model.albertalvin.repositorio;
+package br.edu.ifpe.albertalvin.model.repositorio;
 
 import br.edu.ifpe.model.entidades.Aluno;
 import br.edu.ifpe.model.repositorio.AlunoRepositorio;

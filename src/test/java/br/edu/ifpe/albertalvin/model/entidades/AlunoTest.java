@@ -1,4 +1,4 @@
-package br.edu.ifpe.model.albertalvin.entidades;
+package br.edu.ifpe.albertalvin.model.entidades;
 
 import br.edu.ifpe.model.entidades.Aluno;
 import org.junit.jupiter.api.BeforeAll;
