@@ -1,5 +1,6 @@
-package br.edu.ifpe.model.entidades;
+package br.edu.ifpe.model.albertalvin.entidades;
 
+import br.edu.ifpe.model.entidades.Professor;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

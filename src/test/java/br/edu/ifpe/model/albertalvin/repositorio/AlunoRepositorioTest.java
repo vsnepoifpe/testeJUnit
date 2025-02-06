@@ -1,6 +1,7 @@
-package br.edu.ifpe.model.repositorio;
+package br.edu.ifpe.model.albertalvin.repositorio;
 
 import br.edu.ifpe.model.entidades.Aluno;
+import br.edu.ifpe.model.repositorio.AlunoRepositorio;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
