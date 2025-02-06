@@ -7,8 +7,10 @@ import br.edu.ifpe.model.repositorio.ProfessorRepositorio;
 import br.edu.ifpe.service.AlunoService;
 import br.edu.ifpe.service.ProfessorService;
 
-public class Main {
-	public static void main(String[] args) {
+public class Main
+{
+    public static void main(String[] args)
+    {
         ProfessorRepositorio professorRepo = new ProfessorRepositorio();
         AlunoRepositorio alunoRepo = new AlunoRepositorio();
         ProfessorService professorService = new ProfessorService(professorRepo);

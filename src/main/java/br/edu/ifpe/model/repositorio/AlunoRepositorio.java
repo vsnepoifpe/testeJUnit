@@ -5,14 +5,17 @@ import java.util.Map;
 
 import br.edu.ifpe.model.entidades.Aluno;
 
-public class AlunoRepositorio {
+public class AlunoRepositorio
+{
     private Map<String, Aluno> alunos = new HashMap<>();
 
-    public void salvar(Aluno aluno) {
+    public void salvar(Aluno aluno)
+    {
         alunos.put(aluno.getId(), aluno);
     }
 
-    public Aluno buscarPorId(String id) {
+    public Aluno buscarPorId(String id)
+    {
         return alunos.get(id);
     }
 }
