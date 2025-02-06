@@ -1,11 +1,8 @@
 package br.edu.ifpe.model.repositorio;
 
 import br.edu.ifpe.model.entidades.Aluno;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import java.util.UUID;
 
 import static org.junit.jupiter.api.Assertions.*;
 
