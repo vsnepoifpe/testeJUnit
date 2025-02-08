@@ -1,9 +1,9 @@
-package br.edu.ifpe.service;
+package main.br.edu.ifpe.service;
 
 import java.util.NoSuchElementException;
 
-import br.edu.ifpe.model.entidades.Aluno;
-import br.edu.ifpe.model.repositorio.AlunoRepositorio;
+import main.br.edu.ifpe.model.entidades.Aluno;
+import main.br.edu.ifpe.model.repositorio.AlunoRepositorio;
 
 public class AlunoService {
 	private AlunoRepositorio alunoRepository;

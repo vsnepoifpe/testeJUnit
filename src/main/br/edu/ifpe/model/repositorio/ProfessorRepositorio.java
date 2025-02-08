@@ -1,9 +1,9 @@
-package br.edu.ifpe.model.repositorio;
+package main.br.edu.ifpe.model.repositorio;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import br.edu.ifpe.model.entidades.Professor;
+import main.br.edu.ifpe.model.entidades.Professor;
 
 public class ProfessorRepositorio {
     private Map<String, Professor> professores = new HashMap<>();
