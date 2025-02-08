@@ -1,11 +1,11 @@
-package br.edu.ifpe;
+package main.br.edu.ifpe;
 
-import br.edu.ifpe.model.entidades.Aluno;
-import br.edu.ifpe.model.entidades.Professor;
-import br.edu.ifpe.model.repositorio.AlunoRepositorio;
-import br.edu.ifpe.model.repositorio.ProfessorRepositorio;
-import br.edu.ifpe.service.AlunoService;
-import br.edu.ifpe.service.ProfessorService;
+import main.br.edu.ifpe.model.entidades.Aluno;
+import main.br.edu.ifpe.model.entidades.Professor;
+import main.br.edu.ifpe.model.repositorio.AlunoRepositorio;
+import main.br.edu.ifpe.model.repositorio.ProfessorRepositorio;
+import main.br.edu.ifpe.service.AlunoService;
+import main.br.edu.ifpe.service.ProfessorService;
 
 public class Main {
 	public static void main(String[] args) {

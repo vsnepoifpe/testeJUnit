@@ -1,4 +1,4 @@
-package br.edu.ifpe.model.entidades;
+package main.br.edu.ifpe.model.entidades;
 
 public class Professor {
     private String id;

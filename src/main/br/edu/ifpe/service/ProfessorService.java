@@ -1,9 +1,9 @@
-package br.edu.ifpe.service;
+package main.br.edu.ifpe.service;
 
 import java.util.NoSuchElementException;
 
-import br.edu.ifpe.model.entidades.Professor;
-import br.edu.ifpe.model.repositorio.ProfessorRepositorio;
+import main.br.edu.ifpe.model.entidades.Professor;
+import main.br.edu.ifpe.model.repositorio.ProfessorRepositorio;
 
 public class ProfessorService {
 	private ProfessorRepositorio professorRepository;
