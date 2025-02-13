@@ -1,4 +1,4 @@
-package test.java.br.edu.ifpe.model.entidades;
+package test.java.br.edu.ifpe.joaoGouveia.model.entidades;
 
 import br.edu.ifpe.model.entidades.Aluno;
 import org.junit.jupiter.api.BeforeEach;

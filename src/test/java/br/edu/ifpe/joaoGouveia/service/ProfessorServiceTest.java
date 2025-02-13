@@ -1,4 +1,4 @@
-package test.java.br.edu.ifpe.service;
+package test.java.br.edu.ifpe.joaoGouveia.service;
 
 import br.edu.ifpe.model.entidades.Professor;
 import br.edu.ifpe.model.repositorio.ProfessorRepositorio;
