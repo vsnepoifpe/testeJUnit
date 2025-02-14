@@ -1,4 +1,4 @@
-package br.edu.ifpe.model.entidades;
+package main.java.br.edu.ifpe.model.entidades;
 
 import java.util.ArrayList;
 import java.util.List;

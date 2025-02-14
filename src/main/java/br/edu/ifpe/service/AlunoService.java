@@ -1,12 +1,12 @@
-package br.edu.ifpe.service;
+package main.java.br.edu.ifpe.service;
 
 import java.util.NoSuchElementException;
 
-import br.edu.ifpe.model.entidades.Aluno;
-import br.edu.ifpe.model.repositorio.AlunoRepositorio;
+import main.java.br.edu.ifpe.model.entidades.Aluno;
+import main.java.br.edu.ifpe.model.repositorio.AlunoRepositorio;
 
 public class AlunoService {
-	private AlunoRepositorio alunoRepository;
+	private  final AlunoRepositorio alunoRepository;
 
 	public AlunoService(AlunoRepositorio alunoRepository) {
 		this.alunoRepository = alunoRepository;
@@ -25,7 +25,7 @@ public class AlunoService {
 		if (aluno == null || aluno.getNome() == null || aluno.getNome().isBlank() || aluno.getId() == null
 				|| aluno.getId().isBlank()) {
 
-			throw new IllegalArgumentException("Professor Inválido");
+			throw new IllegalArgumentException("Aluno Inválido");
 		}
 		alunoRepository.salvar(aluno);
 	}
