@@ -1,0 +1,6 @@
+test\java\br\edu\ifpe\AlunoTest.class
+test\java\br\edu\ifpe\ProfessorRepositorioTest.class
+test\java\br\edu\ifpe\ProfessorTest.class
+test\java\br\edu\ifpe\AlunoRepositorioTest.class
+test\java\br\edu\ifpe\ProfessorServiceTest.class
+test\java\br\edu\ifpe\AlunoServiceTest.class

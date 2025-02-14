@@ -1,0 +1,7 @@
+br\edu\ifpe\model\repositorio\AlunoRepositorio.class
+br\edu\ifpe\model\repositorio\ProfessorRepositorio.class
+br\edu\ifpe\model\entidades\Aluno.class
+br\edu\ifpe\Main.class
+br\edu\ifpe\service\ProfessorService.class
+br\edu\ifpe\model\entidades\Professor.class
+br\edu\ifpe\service\AlunoService.class
